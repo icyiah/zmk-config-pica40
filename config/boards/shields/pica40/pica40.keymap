@@ -96,6 +96,8 @@
             layers = <0>;
             bindings = <&caps_word>;
         };
+
+	#include "combos/help.dtsi"
     };
 
     keymap {
