@@ -90,7 +90,7 @@
     combos {
         compatible = "zmk,combos";
 
-        #include "combos/help.dtsi"
+        #include "os/windows/combos/help.dtsi"
 
         combo_caps {
             timeout-ms = <50>;
