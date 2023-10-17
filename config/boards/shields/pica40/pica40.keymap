@@ -90,6 +90,8 @@
     combos {
         compatible = "zmk,combos";
 
+        #include "combos/help.dtsi"
+
         combo_caps {
             timeout-ms = <50>;
             key-positions = <14 17>;
@@ -97,7 +99,6 @@
             bindings = <&caps_word>;
         };
 
-	#include "combos/help.dtsi"
     };
 
     keymap {
